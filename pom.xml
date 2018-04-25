@@ -7,8 +7,8 @@
     <description>An unique id generator</description>
 
     <groupId>com.baidu.fsg</groupId>
-    <artifactId>uid-generator</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <artifactId>da-uid-generator</artifactId>
+    <version>1.0.0.SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <!-- Properties -->
@@ -18,6 +18,14 @@
         <spring.version>4.2.5.RELEASE</spring.version>
         <slf4j-version>1.7.7</slf4j-version>
     </properties>
+
+    <!--这里不是花瓶，可以部署到nexus repo中的-->
+    <parent>
+        <groupId>com.dianwoba.mservice-two</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath />
+    </parent>
 
     <!-- Dependencies -->
     <dependencies>
@@ -141,6 +149,4 @@
             </plugin>
         </plugins>
     </build>
-
-
 </project>
