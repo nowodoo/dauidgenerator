@@ -23,7 +23,7 @@ import org.apache.commons.lang.builder.ToStringStyle;
 import com.baidu.fsg.uid.worker.WorkerNodeType;
 
 /**
- * Entity for M_WORKER_NODE
+ * Entity for M_worker_node
  *
  * @author yutianbao
  */

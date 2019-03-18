@@ -6,9 +6,9 @@
     <name>UID-Generator</name>
     <description>An unique id generator</description>
 
-    <groupId>com.baidu.fsg</groupId>
+    <groupId>com.dianwoba.mservice-two.dwd</groupId>
     <artifactId>da-uid-generator</artifactId>
-    <version>1.0.0.SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <!-- Properties -->

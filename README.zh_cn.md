@@ -80,14 +80,14 @@ JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home";
 export JAVA_HOME;
 ```
 
-### 步骤2: 创建表WORKER_NODE
-运行sql脚本以导入表WORKER_NODE, 脚本如下:
+### 步骤2: worker_node
+运行sql脚本以导入表worker_node, 脚本如下:
 ```sql
 DROP DATABASE IF EXISTS `xxxx`;
 CREATE DATABASE `xxxx` ;
 use `xxxx`;
-DROP TABLE IF EXISTS WORKER_NODE;
-CREATE TABLE WORKER_NODE
+DROP TABLE IF EXISTS worker_node;
+CREATE TABLE worker_node
 (
 ID BIGINT NOT NULL AUTO_INCREMENT COMMENT 'auto increment id',
 HOST_NAME VARCHAR(64) NOT NULL COMMENT 'host name',

@@ -20,7 +20,7 @@ import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 /**
- * DAO for M_WORKER_NODE
+ * DAO for M_worker_node
  *
  * @author yutianbao
  */

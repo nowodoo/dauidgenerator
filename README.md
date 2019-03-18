@@ -94,14 +94,14 @@ JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home";
 export JAVA_HOME;
 ```
 
-### Step 2: Create table WORKER_NODE
+### Step 2: Create table worker_node
 Replace ```xxxxx``` with real database name, and run following script to create table,
 ```sql
 DROP DATABASE IF EXISTS `xxxx`;
 CREATE DATABASE `xxxx` ;
 use `xxxx`;
-DROP TABLE IF EXISTS WORKER_NODE;
-CREATE TABLE WORKER_NODE
+DROP TABLE IF EXISTS worker_node;
+CREATE TABLE worker_node
 (
 ID BIGINT NOT NULL AUTO_INCREMENT COMMENT 'auto increment id',
 HOST_NAME VARCHAR(64) NOT NULL COMMENT 'host name',
